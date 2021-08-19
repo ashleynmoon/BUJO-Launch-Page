@@ -8,7 +8,6 @@ body {
   border: 8px solid #f7e1d3;
   border-radius: 30px;
   margin: 40px auto;
-  max-width: 800px;
   padding: 20px 80px 80px;
 }
 h1,
@@ -18,37 +17,31 @@ p {
   text-align: center;
 }
 h1 {
-  font-size: 60px;
+  color: seashell;
+  font-size: 80px;
+  font-weight: bold;
   margin: 0 auto;
   padding: 40px 40px 0px 40px;
+  -webkit-text-stroke: 2.5px #926468;
 }
 h2 {
   border: 4px solid #9ab7d3;
   border-radius: 6px;
   background-color: seashell;
   color: #686573;
-  font-size: 26px;
+  font-size: 32px;
   font-weight: lighter;
   margin: 30px auto;
-  max-width: 450px;
   padding: 10px;
   line-height: 32px;
 }
-ul {
-  background: linear-gradient(#9ab7d3, white, #bdd0c4);
-  border: 6px solid #686573;
-  border-radius: 10px;
-  text-align: center;
-  margin: 0 auto;
-  padding: 20px;
-}
-li {
-  display: inline-block;
-}
+
 .listItems {
-  font-size: 28px;
-  line-height: 50px;
   padding: 20px;
+}
+.caption {
+  font-size: 28px;
+  font-weight: bold;
   text-align: center;
 }
 .photos {
@@ -69,7 +62,6 @@ P {
   font-size: 28px;
   line-height: 40px;
   margin: 30px auto;
-  max-width: 600px;
   padding: 20px;
 }
 .pinterest {
